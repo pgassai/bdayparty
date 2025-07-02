@@ -1,5 +1,5 @@
 img {
-  --s: 400px; /* image size */
+  --s: min(80vw, 400px);  /* image size */
   
   width: var(--s);
   aspect-ratio: 1;

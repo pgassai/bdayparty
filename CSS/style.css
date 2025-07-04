@@ -18,7 +18,7 @@ img {
   cursor: pointer;
   --_p: 0px;
 }
-img:hover {
+img.active {
   --_p: calc(var(--s)/2);
 }
 

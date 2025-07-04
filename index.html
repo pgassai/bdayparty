@@ -8,6 +8,13 @@
   </head>
   
     <body>
-        <img src="Image/card.png"  alt="a random girl">
+        <img id="heart-image"  src="Image/card.png"  alt="a random girl">
+
+        <script>
+          const img = document.getElementById('heart-image');
+          img.addEventListener('click', () => {
+            img.classList.toggle('active');
+          });
+        </script>
     </body>
 </html>
